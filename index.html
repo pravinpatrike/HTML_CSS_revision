@@ -6,15 +6,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
-<style>
-    *{font-family: 'Rethink Sans', sans-serif;}
-</style>
+    <style>
+        * {
+            font-family: 'Rethink Sans', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
 
     <!-- Text Formatting -->
-<!-- 
+    
     <h1>Text formatting</h1>
     <h2>Text formatting</h2>
     <h3>Text formatting</h3>
@@ -32,11 +34,13 @@
     <del>deleted text</del>
     <p> H<sub>2</sub>O</p>
     <p>X<sup>2</sup>+Y</p>
- -->
+
 
     <!-- HTML Styles -->
-    
-    <h1 style="color: blueviolet; background-color: rgb(188, 157, 157); text-align: center; padding: 10 0; text-transform: capitalize;"> HTML styles </h1>
+
+    <h1
+        style="color: blueviolet; background-color: rgb(188, 157, 157); text-align: center; padding: 10 0; text-transform: capitalize;">
+        HTML styles </h1>
 
 
     <p><b>Element is a combiantion of data inside tag</b></p>
@@ -44,17 +48,18 @@
     <!-- HTML Links ( Anchor tag a) -->
 
     <a href="#" target="_blank" title="Click to visit">Link to other content</a>
- <br>
- <hr>
+    <br>
+    <hr>
 
     <!-- HTML Images -->
 
-    <img src="https://wallpapers.com/images/high/luffy-3840-x-2160-picture-hn0uibdl9fcne46i.webp" width="200" height="100" title="Luffy image" alt="luffy image">
+    <img src="https://wallpapers.com/images/high/luffy-3840-x-2160-picture-hn0uibdl9fcne46i.webp" width="200"
+        height="100" title="Luffy image" alt="luffy image">
 
     <hr>
 
     <!-- Table -->
-    
+
     <table border="1" cellspacing="0" cellpadding="5" style="text-align: center;">
         <tr>
             <th>Name</th>
@@ -63,7 +68,7 @@
             <th>Salary</th>
         </tr>
         <tr>
-            <td >Pravin</td>
+            <td>Pravin</td>
             <td>Developer</td>
             <td>IT</td>
             <td>200,00,000</td>
@@ -81,6 +86,58 @@
             <td>200,00,000</td>
         </tr>
     </table>
+
+    <hr>
+    <!-- HTML Lists -->
+    <p>List </p>
+
+    <ul type="square">
+        <li>laptop</li>
+        <li>Bag</li>
+        <li>Notebook</li>
+    </ul>
+
+    <ol type="a" start="5">
+        <li>laptop</li>
+        <li>Bag</li>
+        <li>Notebook</li>
+    </ol>
+
+    <hr>
+
+    <!-- HTML Forms -->
+    <p>Forms</p>
+    <h3>Contact Form</h3>
+    <form>
+        <label>Username :</label><br>
+        <input type="text" name="username"> <br> <br>
+
+        <label>Password :</label><br>
+        <input type="password"name="password"> <br> <br>
+
+        <label>Email :</label><br>
+        <input type="email"name="email"> <br> <br>
+
+        <select >
+            <option>Select your plan</option>
+            <option value="personal">Personal</option>
+            <option value="business">Business</option>
+            <option value="premium">Premium</option>
+        </select>
+        <br> <br>
+
+        <textarea cols="10" rows="4"></textarea> <br> <br>
+
+        <label>Selct your Gender</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female <br> <br>
+
+        <p>Please Read all isndfv carefully !</p>
+        <input type="checkbox" name="perm"> yes, I read it carefully. <br> <br>
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
 </body>
 
 </html>
