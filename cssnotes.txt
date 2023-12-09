@@ -1,0 +1,2 @@
+class (.) selector is used for group of elements
+id (#) selector is used for single/unique element
